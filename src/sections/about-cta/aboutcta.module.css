@@ -1,0 +1,17 @@
+.container {
+    padding: 90px 250px;
+    text-align: center;
+}
+
+.header {
+    font-weight: 600;
+}
+
+.description {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.buttonContainer {
+    margin-top: 50px;
+}

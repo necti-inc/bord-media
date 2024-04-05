@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.textContainer {
+    display: flex;
+    gap: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.leftContainer {
+}
+
+.rightContainer {
+
+}
+
+.logoImage {
+    height: 120px;
+    width: auto;
+    margin-bottom: 55px;
+}

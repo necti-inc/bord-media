@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.aboutImage {
+    height: 540px;
+    width: auto;
+}
+
+.textContainer {
+    width: 25%;
+}
+
+.header {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-weight: 400;
+}

@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header {
+    font-weight: 400;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.line {
+    border-bottom: 1px solid #A3CFCE;
+    width: 80%;
+    margin: 0 auto;
+    transition: border-bottom-color 0.3s, width 0.3s;
+}
+
+.container:hover .line {
+    border-bottom-color: #A3CFCE !important;
+    width: 100%;
+}
+
+.container:hover .header {
+    color: #A3CFCE !important;
+}

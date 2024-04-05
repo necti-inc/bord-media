@@ -1,0 +1,29 @@
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 140px;
+}
+
+.header {
+    font-weight: 600;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.divider {
+    border-bottom: 1px solid;
+    margin-top: 50px;
+}
+
+.headerText {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.bodyText {
+    font-weight: 400;
+    margin-top: -10px;
+    line-height: 25px;
+}

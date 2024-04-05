@@ -1,0 +1,19 @@
+.container {
+    margin-top: 140px;
+}
+
+.header {
+    text-align: center;
+    font-weight: 600;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 140px;
+}
+
+.projectGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 140px;
+}

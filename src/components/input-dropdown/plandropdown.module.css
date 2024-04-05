@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px 10px 2px;
+}
+
+.label {
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.dropdown {
+    padding: 6px 10px 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    font-family: inherit;
+    font-size: 19px;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.menu {
+    border: 1px solid;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    list-style-type: none;
+    padding: 0;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.menu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: #eee;
+}
+
+@media only screen and (max-width: 1300px) {
+    .container {
+        width: 98%;
+    }
+}

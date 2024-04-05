@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.header {
+    font-weight: 600;
+}
+
+.subHeader {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.description {
+    font-weight: 400;
+}
+
+.textContainer {
+    width: 30%;
+}
+
+.buttonContainer {
+    margin-top: 40px;
+}
+
+.packageImage {
+    height: 420px;
+    width: auto;
+}

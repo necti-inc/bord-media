@@ -1,0 +1,13 @@
+.header {
+    font-weight: 500;
+}
+
+.description {
+    font-weight: 400;
+}
+
+.image {
+    height: 350px;
+    width: auto;
+    margin-bottom: 5px;
+}
