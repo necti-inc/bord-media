@@ -27,7 +27,7 @@ const PlanDropdown = (props) => {
 
   useEffect(() => {
     if (props.value === "reset") {
-      setSelectedPlan(["Select and option", 500, theme.dark]);
+      setSelectedPlan(["$600 - $1,000", 500, theme.dark]);
     }
   }, [props.value]);
 

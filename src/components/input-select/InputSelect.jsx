@@ -1,10 +1,17 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./inputselect.module.css";
 import theme from "@/app/theme";
 
 function InputSelect(props) {
   const [selectedOptions, setSelectedOptions] = useState([]);
+
+  useEffect(() => {
+    console.log(props.value);
+    if (props.value === "reset") {
+      setSelectedOptions([]);
+    }
+  }, [props.value]);
 
   const handleOptionChange = (optionValue) => {
     setSelectedOptions((currentSelectedOptions) => {

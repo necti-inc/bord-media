@@ -118,7 +118,7 @@ const Navbar = () => {
       </button>
       <div style={{ color: theme.dark }} className={style.links}>
         {links.map((link, index) => (
-          <>
+          <div key={link.id} className={style.links}>
             <button
               onMouseEnter={() => handleMouseEnter(link.id)}
               onMouseLeave={() => handleMouseLeave(link.id)}
@@ -157,7 +157,7 @@ const Navbar = () => {
                 </Link>
               </button>
             )}
-          </>
+          </div>
         ))}
       </div>
 

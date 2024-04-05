@@ -87,23 +87,27 @@ function ContactForm() {
     // If everything is valid, continue with submission
     if (isValid) {
       const formData = {
-        firstName: fullNameValue[0],
-        lastName: businessNameValue[0],
+        fullName: fullNameValue[0],
+        businessName: businessNameValue[0],
         email: emailValue[0],
+        phoneNumber: phoneValue[0],
         estimatedBudget: estimatedBudget,
+        services: servicesValue[0],
         anythingElse: anythingElseValue[0],
       };
 
       try {
         await axios.post(
-          "https://us-central1-premier-ikon.cloudfunctions.net/contact-form-automation",
+          "https://us-central1-bord-media.cloudfunctions.net/contact-form-automation",
           formData
         );
 
         setFullNameValue(["reset", true]);
         setBusinessNameValue(["reset", true]);
         setEmailValue(["reset", true]);
+        setPhoneValue(["reset", true]);
         setEstimatedBudget("reset");
+        setServicesValue(["reset", true]);
         setAnythingElseValue(["reset", true]);
       } catch (error) {
         console.error("Error calling Cloud Function:", error);
@@ -165,7 +169,7 @@ function ContactForm() {
               title={"Estimated Budget *"}
               onChange={(plan) => setEstimatedBudget(plan)}
               items={estimatedBudgetValues}
-              isValid={phoneValue[1]}
+              isValid={true}
             />
           </div>
           <div
@@ -174,6 +178,7 @@ function ContactForm() {
             <InputSelect
               title={"Services (Check all that apply.) *"}
               options={options1}
+              value={servicesValue[0]}
               onChange={(selectedServices) =>
                 setServicesValue([selectedServices, true])
               }
