@@ -6,7 +6,7 @@
 }
 
 .header {
-font-weight: 600;
+    font-weight: 600;
 }
 
 .outerTextContainer {
@@ -16,6 +16,10 @@ font-weight: 600;
     margin-top: 60px;
 }
 
+.outerTextContainerMobile {
+    display: none;
+    margin-top: 40px;
+}
 
 .innerTextContainer {
     display: flex;
@@ -88,4 +92,76 @@ font-weight: 600;
     display: flex;
     justify-content: center;
     margin-top: 40px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        font-size: 70px !important;
+    }
+
+    .outerTextContainer {
+        display: none;
+    }
+
+    .outerTextContainerMobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topTextMobile {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    .middleButtonMobile {
+        margin-bottom: 15px;
+    }
+
+    .cityText {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 905px) {
+    .header {
+        font-size: 60px !important;
+    }
+
+    .container {
+        padding-top: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 18px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .header {
+        font-size: 55px !important;
+    }
+
+    .topTextMobile {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        font-size: 55px !important;
+    }
+
+    .outerTextContainerMobile {
+        margin-top: 10px;
+    }
+
+    .topTextMobile {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }

@@ -27,6 +27,16 @@ function ContactForm() {
     ["$1,000 - $2,000", ""],
     ["$2,000 - $4,000", ""],
   ];
+  const optionsMobile = [
+    ["Meta Management"],
+    ["Business Naming"],
+    ["Brand Strategy"],
+    ["Creative Content"],
+    ["Business Photoshoot"],
+    ["Yelp Management"],
+    ["Next Door Management"],
+    ["Creative Content"],
+  ];
   const options1 = [
     ["Meta Management"],
     ["Business Naming"],
@@ -219,18 +229,29 @@ function ContactForm() {
       </div>
 
       <div className={styles.rightContainerMobile}>
+        <h2
+          className={styles.contactHeader}
+          style={{ color: theme.dark, fontSize: theme.fontSizeXL }}
+        >
+          Tell us about you.
+        </h2>
+        <div>
+          <p style={{ color: theme.light }} className={styles.warningText}>
+            “*” indicates required fields
+          </p>
+        </div>
         <form onSubmit={handleSubmit}>
-          <LargeTextInput
-            title={"First name *"}
-            placeholder={"John"}
+          <SmallTextInput
+            title={"Full Name *"}
+            placeholder={"John Smith"}
             type={"text"}
             value={fullNameValue[0]}
             onChange={(e) => setFullNameValue([e.target.value, true])}
             isValid={fullNameValue[1]}
           />
-          <LargeTextInput
-            title={"Last name *"}
-            placeholder={"Smith"}
+          <SmallTextInput
+            title={"Business/Project Name *"}
+            placeholder={"J's Pest Control"}
             type={"text"}
             value={businessNameValue[0]}
             onChange={(e) => setBusinessNameValue([e.target.value, true])}
@@ -238,26 +259,51 @@ function ContactForm() {
           />
           <LargeTextInput
             title={"Email *"}
-            placeholder={"johnsmith@gmail.com"}
+            placeholder={"john@gmail.com"}
             type={"email"}
             value={emailValue[0]}
             onChange={(e) => setEmailValue([e.target.value, true])}
             isValid={emailValue[1]}
           />
-          <div className={styles.bottomContainer}>
-            <PlanDropdown
-              value={estimatedBudget}
-              title={"Solution Package"}
-              onChange={(plan) => setEstimatedBudget(plan)}
-              items={estimatedBudgetValues}
-            />
-            <LargeTextInput
-              title={"Anything else?"}
-              placeholder={"I need a nice website."}
-              value={anythingElseValue[0]}
-              onChange={(e) => setAnythingElseValue([e.target.value, true])}
-              isValid={anythingElseValue[1]}
-            />
+          <LargeTextInput
+            title={"Phone *"}
+            placeholder={"951-568-9856"}
+            value={phoneValue[0]}
+            onChange={(e) => setPhoneValue([e.target.value, true])}
+            isValid={phoneValue[1]}
+          />
+          <PlanDropdown
+            value={estimatedBudget}
+            title={"Estimated Budget *"}
+            onChange={(plan) => setEstimatedBudget(plan)}
+            items={estimatedBudgetValues}
+            isValid={true}
+          />
+          <InputSelect
+            title={"Services (Check all that apply.) *"}
+            options={optionsMobile}
+            value={servicesValue[0]}
+            onChange={(selectedServices) =>
+              setServicesValue([selectedServices, true])
+            }
+            isValid={servicesValue[1]}
+          />
+          <XLargeTextInput
+            title={"Additional Info"}
+            placeholder={"Get Started..."}
+            value={anythingElseValue[0]}
+            onChange={(e) => setAnythingElseValue([e.target.value, true])}
+            isValid={anythingElseValue[1]}
+          />
+          <div className={styles.buttonContainer}>
+            <button
+              style={buttonstyles}
+              className={styles.buttonDark}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              Submit
+            </button>
           </div>
         </form>
       </div>

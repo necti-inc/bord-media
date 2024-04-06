@@ -58,6 +58,39 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      <div className={styles.outerTextContainerMobile}>
+        <p className={styles.topTextMobile}>
+          Shaping your digital journey with meticulous design, vibrant
+          personality, and unmistakable flair, every step of the way.
+        </p>
+        <div className={styles.middleButtonMobile}>
+          <a href={"tel:+1234567890"}>
+            <p
+              className={styles.textButton}
+              style={{ fontSize: theme.fontSizeXXS }}
+            >
+              +1 (951) 796-7321
+            </p>
+          </a>
+          <a href="mailto:info@bordmedia.com">
+            <p
+              className={styles.textButton}
+              style={{ fontSize: theme.fontSizeXXS }}
+            >
+              info@bordmedia.com
+            </p>
+          </a>
+        </div>
+        <Link href={"/about"}>
+          <p className={styles.texterButton}>About</p>
+        </Link>
+        <Link href={"/portfolio"}>
+          <p className={styles.texterButton}>Portfolio</p>
+        </Link>
+        <Link href={"/services"}>
+          <p className={styles.texterButton}>Services</p>
+        </Link>
+      </div>
       <div className={styles.cityText}>
         <p>Winchester CA</p>
         <div className={styles.circle} style={{ backgroundColor: theme.tan }} />

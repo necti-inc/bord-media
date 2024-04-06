@@ -17,3 +17,45 @@
     gap: 60px;
     margin-bottom: 140px;
 }
+
+@media only screen and (max-width: 1450px) {
+    .header {
+        font-size: 60px !important;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .header {
+        padding-bottom: 80px;
+    }
+
+    .projectGrid {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        margin-top: 50px;
+    }
+
+    .header {
+        font-size: 55px !important;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .header {
+        font-size: 50px !important;
+        padding-left: revert;
+        padding-right: revert;
+        padding-bottom: 50px;
+    }
+
+    .projectGrid {
+        gap: 30px;
+    }
+}

@@ -13,3 +13,25 @@
     object-fit: cover;
     display: block;
 }
+
+@media only screen and (max-width: 740px) {
+    .image {
+        width: 475px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .image {
+        width: 400px;
+        height: 250px;
+    }
+
+    .header {
+        font-size: 28px !important;
+    }
+
+    .description {
+        font-size: 16px !important;
+    }
+}

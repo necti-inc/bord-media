@@ -29,3 +29,62 @@
     gap: 10px;
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        font-size: 65px !important;
+    }
+
+    .image {
+        width: 300px;
+    }
+
+    .rightContainer {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .container {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 70px;
+    }
+
+    .header {
+        font-size: 60px !important;
+    }
+
+    .description {
+        font-size: 24px !important;
+        width: 100%;
+    }
+
+    .image {
+        width: 350px;
+    }
+
+    .rightContainer {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 20px;
+    }
+
+    .header {
+        font-size: 55px !important;
+    }
+
+    .description {
+        font-size: 22px !important;
+    }
+
+    .image {
+        width: 325px;
+    }
+}

@@ -2,12 +2,7 @@
 
 import React, { useState } from "react";
 import styles from "./dropdown-faq.module.css";
-import {
-  faChevronDown,
-  faChevronUp,
-  faArrowUp,
-  faArrowDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import theme from "@/app/theme";

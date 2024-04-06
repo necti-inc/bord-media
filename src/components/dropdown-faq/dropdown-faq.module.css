@@ -32,25 +32,16 @@
     margin-right: 20px;
 }
 
+
 @media only screen and (max-width: 750px) {
     .header {
         font-size: 38px !important;
     }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 650px) {
     .header {
-        font-size: 30px !important;
-    }
-
-    .description {
-        font-size: 20px !important;
-    }
-}
-
-@media only screen and (max-width: 475px) {
-    .header {
-        font-size: 28px !important;
+        font-size: 34px !important;
     }
 
     .description {
@@ -58,14 +49,9 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 580px) {
     .header {
-        font-variant: revert;
-        font-size: 22px !important;
-    }
-
-    .description {
-        font-variant: revert;
-        font-size: 16px !important;
+        font-size: 28px !important;
     }
 }
+

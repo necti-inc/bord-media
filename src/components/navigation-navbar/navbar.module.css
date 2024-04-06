@@ -54,9 +54,10 @@
 }
 
 .mobileButton {
-  width: 23px;
-  height: 23px;
-  margin-right: 25px;
+  width: 25px;
+  height: 25px;
+  margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 .headerButton {
@@ -73,11 +74,24 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
+.mobileImage {
+  display: none;
+}
+
 
 /* Mobile styles */
 @media (max-width: 768px) {
   .links {
     display: none; /* Hide links and logo on smaller screens */
+  }
+
+  .mobileImage {
+    display: revert;
+    margin-left: 5px;
+  }
+
+  .container {
+    height: 120px;
   }
 
   .menuButton {

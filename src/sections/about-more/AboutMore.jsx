@@ -11,14 +11,20 @@ function AboutMore() {
       <Image src={LogoImage} alt={"Owner"} className={styles.logoImage} />
       <div className={styles.textContainer}>
         <div className={styles.leftContainer}>
-          <p style={{ fontSize: theme.fontSizeXXS, color: theme.dark }}>
+          <p
+            className={styles.description}
+            style={{ fontSize: theme.fontSizeXXS, color: theme.dark }}
+          >
             In the midst of 2020's global pause, the idea of Bord Media started
             to take shape in my mind. Watching businesses pivot online
             highlighted a glaring need for quality digital content that didn’t
             strain budgets.{" "}
           </p>
           <br />
-          <p style={{ fontSize: theme.fontSizeXXS, color: theme.dark }}>
+          <p
+            className={styles.description}
+            style={{ fontSize: theme.fontSizeXXS, color: theme.dark }}
+          >
             With determination and my BAS in Clinical Psychology, I turned my
             vision into Bord Media. Officially launched in June 2021, my company
             became a haven for small businesses seeking to strengthen their
@@ -28,7 +34,10 @@ function AboutMore() {
           </p>
         </div>
         <div className={styles.rightContainer}>
-          <p style={{ fontSize: theme.fontSizeXXS, color: theme.dark }}>
+          <p
+            className={styles.description}
+            style={{ fontSize: theme.fontSizeXXS, color: theme.dark }}
+          >
             Through trials and feedback, the mission of Bord Media became clear:
             to forge creative and collaborative pathways in social media
             marketing. My approach has always been about more than just content;
@@ -36,7 +45,10 @@ function AboutMore() {
             unique story, and sharing it with the world.
           </p>
           <br />
-          <p style={{ fontSize: theme.fontSizeXXS, color: theme.dark }}>
+          <p
+            className={styles.description}
+            style={{ fontSize: theme.fontSizeXXS, color: theme.dark }}
+          >
             Inspired by my love for minimalist and elegant designs, Bord Media
             embodies the principle that luxury can be accessible. Influenced by
             the chic of Paris and the simplicity of Scandinavia, I set out to

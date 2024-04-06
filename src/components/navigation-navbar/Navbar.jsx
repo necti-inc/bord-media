@@ -98,6 +98,18 @@ const Navbar = () => {
       }}
     >
       <button
+        onClick={() => {
+          setCurrentPath("/");
+        }}
+        className={style.mobileImage}
+      >
+        <Link style={{ color: theme.dark }} href={"/"}>
+          <div>
+            <Image className={style.headerLogo} src={HeaderLogo} alt={"test"} />
+          </div>
+        </Link>
+      </button>
+      <button
         onClick={toggleMenu}
         className={style.menuButton}
         aria-label="Toggle Menu"
