@@ -18,9 +18,14 @@ function HomeHeader() {
         className={styles.header}
         style={{ fontSize: theme.fontSizeL, color: theme.tan }}
       >
-        Elevating Your Brand's Voice with Striking Social Media Strategies that
-        Captivate, Engage, and Build Trust.
+        Welcome to Bord Media
       </h1>
+      <h2
+        className={styles.description}
+        style={{ fontSize: theme.fontSizeXXS, color: theme.tan }}
+      >
+        Become part of our family!
+      </h2>
     </div>
   );
 }

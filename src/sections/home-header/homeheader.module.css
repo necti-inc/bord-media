@@ -1,12 +1,17 @@
 .container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .header {
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    font-weight: 600;
+}
+
+.description {
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -15,12 +20,18 @@
     }
 }
 
+@media only screen and (max-width: 950px) {
+    .description {
+        font-size: 16px !important;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .header {
-        font-size: 40px !important;
+        font-size: 38px !important;
     }
 
     .container {
-        height: 600px !important;
+        height: 525px !important;
     }
 }
