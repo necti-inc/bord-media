@@ -18,11 +18,11 @@ const links = [
     title: "Home",
     url: "/",
   },
-  {
-    id: 5,
-    title: "Portfolio",
-    url: "/portfolio",
-  },
+  // {
+  //   id: 5,
+  //   title: "Portfolio",
+  //   url: "/portfolio",
+  // },
   {
     id: 2,
     title: "Services",
@@ -33,13 +33,13 @@ const links = [
     title: "About",
     url: "/about",
   },
+  // {
+  //   id: 4,
+  //   title: "Faq",
+  //   url: "/faq",
+  // },
   {
     id: 4,
-    title: "Faq",
-    url: "/faq",
-  },
-  {
-    id: 6,
     title: "Contact",
     url: "/contact",
   },
@@ -152,7 +152,7 @@ const Navbar = () => {
                 {link.title}
               </Link>
             </button>
-            {index === 2 && (
+            {index === 1 && (
               <button
                 onClick={() => {
                   setCurrentPath("/");

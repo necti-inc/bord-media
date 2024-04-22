@@ -17,183 +17,177 @@ function ServicesDropDown() {
         style={{ fontSize: theme.fontSizeXXS, color: theme.light }}
       >
         Social Strategies that Elevate as You Expand. Tailored Plans Starting at
-        $600+
+        $400+
       </p>
       <div className={styles.divider} style={{ borderColor: theme.dark }} />
       <div>
         <DropdownFaq
-          faqQuestion={"Meta Management"}
+          faqQuestion={"Base Package"}
           faqAnswer={
             <div style={{ fontSize: theme.fontSizeXXS }}>
               <p
-                className={styles.headerText}
+                className={styles.bodyText}
                 style={{
-                  color: theme.dark,
+                  color: theme.secondary,
+                  fontWeight: "600",
                 }}
               >
-                Weekly Content Cadence:
+                • 4 Posts/Month (1 Post/Week) With Captions
               </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • 3 Posts: Carefully crafted to engage and captivate,
-                alternating every other day for consistent presence. <br /> • 2
-                Stories: Dynamic stories every week to connect and interact,
-                keeping your brand top of mind.
+                • Instagram/Facebook
               </p>
-              <br />
-              <br />
-              <p className={styles.headerText} style={{ color: theme.dark }}>
-                Engagement Boost:
+              <p className={styles.bodyText} style={{ color: theme.light }}>
+                • Initial Business Social Media Setup/Organization
               </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • Social Interaction: Active participation in conversations to
-                foster community and enhance visibility.
+                • Analysis of Accounts
               </p>
-              <br />
-              <br />
-              <p className={styles.headerText} style={{ color: theme.dark }}>
-                Your Benefits:
-              </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • Steady Growth: A balanced mix of posts and stories to steadily
-                grow your audience.
-                <br /> • Brand Presence: Regular, high-quality content to
-                elevate your brand's digital footprint.
+                • Post Scheduling
+              </p>
+              <p
+                className={styles.bodyText}
+                style={{
+                  color: theme.light,
+                }}
+              >
+                • Daily Engagement
+              </p>
+              <p
+                className={styles.bodyText}
+                style={{
+                  color: theme.light,
+                }}
+              >
+                • Monthly Analytics Report
               </p>
             </div>
           }
         />
         <DropdownFaq
-          faqQuestion={"Yelp Management"}
+          faqQuestion={"Premium Package"}
           faqAnswer={
             <div style={{ fontSize: theme.fontSizeXXS }}>
               <p
-                className={styles.headerText}
+                className={styles.bodyText}
                 style={{
-                  color: theme.dark,
+                  color: theme.secondary,
+                  fontWeight: "600",
                 }}
               >
-                Weekly Content Cadence:
+                • 8 Posts/Month (2 Posts/Week) With Captions
               </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • 3 Posts: Carefully crafted to engage and captivate,
-                alternating every other day for consistent presence. <br /> • 2
-                Stories: Dynamic stories every week to connect and interact,
-                keeping your brand top of mind.
+                • Instagram/Facebook
               </p>
-              <br />
-              <br />
-              <p className={styles.headerText} style={{ color: theme.dark }}>
-                Engagement Boost:
+              <p className={styles.bodyText} style={{ color: theme.light }}>
+                • Initial Business Social Media Setup/Organization
               </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • Social Interaction: Active participation in conversations to
-                foster community and enhance visibility.
+                • Analysis of Accounts
               </p>
-              <br />
-              <br />
-              <p className={styles.headerText} style={{ color: theme.dark }}>
-                Your Benefits:
-              </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • Steady Growth: A balanced mix of posts and stories to steadily
-                grow your audience.
-                <br /> • Brand Presence: Regular, high-quality content to
-                elevate your brand's digital footprint.
+                • Post Scheduling
+              </p>
+              <p
+                className={styles.bodyText}
+                style={{
+                  color: theme.light,
+                }}
+              >
+                • Daily Engagement
+              </p>
+              <p
+                className={styles.bodyText}
+                style={{
+                  color: theme.light,
+                }}
+              >
+                • Monthly Analytics Report
               </p>
             </div>
           }
         />
         <DropdownFaq
-          faqQuestion={"Next Door Management"}
+          faqQuestion={"Additional Services"}
           faqAnswer={
             <div style={{ fontSize: theme.fontSizeXXS }}>
-              <p
-                className={styles.headerText}
-                style={{
-                  color: theme.dark,
-                }}
-              >
-                Weekly Content Cadence:
+              <p className={styles.bodyText} style={{ color: theme.light }}>
+                • Business Sales Taxes
               </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • 3 Posts: Carefully crafted to engage and captivate,
-                alternating every other day for consistent presence. <br /> • 2
-                Stories: Dynamic stories every week to connect and interact,
-                keeping your brand top of mind.
+                • Email Marketing
               </p>
-              <br />
-              <br />
-              <p className={styles.headerText} style={{ color: theme.dark }}>
-                Engagement Boost:
+              <p className={styles.bodyText} style={{ color: theme.light }}>
+                • Merchant Monday Posts
               </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • Social Interaction: Active participation in conversations to
-                foster community and enhance visibility.
+                • Story Posts
               </p>
-              <br />
-              <br />
-              <p className={styles.headerText} style={{ color: theme.dark }}>
-                Your Benefits:
-              </p>
-              <br />
               <p
                 className={styles.bodyText}
                 style={{
                   color: theme.light,
                 }}
               >
-                • Steady Growth: A balanced mix of posts and stories to steadily
-                grow your audience.
-                <br /> • Brand Presence: Regular, high-quality content to
-                elevate your brand's digital footprint.
+                • Additional Posts
+              </p>
+              <p
+                className={styles.bodyText}
+                style={{
+                  color: theme.light,
+                }}
+              >
+                • Google Workspace Email Setup
+              </p>
+              <p
+                className={styles.bodyText}
+                style={{
+                  color: theme.light,
+                }}
+              >
+                • Business Social Media Setup
               </p>
             </div>
           }

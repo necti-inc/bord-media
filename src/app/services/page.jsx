@@ -7,7 +7,7 @@ function Services() {
   return (
     <div>
       <ServicesHeader />
-      <ServicesWhatNeed />
+      {/*<ServicesWhatNeed />*/}
       <ServicesDropDown />
     </div>
   );

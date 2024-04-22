@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div
       className={styles.container}
-      style={{ backgroundColor: theme.alt, color: theme.tan }}
+      style={{ backgroundColor: theme.alt, color: theme.secondary }}
     >
       <h3 className={styles.header} style={{ fontSize: theme.fontSizeXXL }}>
         Let’s Get To Work!
@@ -39,7 +39,10 @@ const Footer = () => {
               </p>
             </a>
           </div>
-          <div className={styles.middleContainer}>
+          <div
+            className={styles.middleContainer}
+            style={{ fontSize: theme.fontSizeXXS }}
+          >
             <Link href={"/about"}>
               <p className={styles.texterButton}>About</p>
             </Link>
@@ -51,7 +54,10 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className={styles.bottomContainer}>
+        <div
+          className={styles.bottomContainer}
+          style={{ fontSize: theme.fontSizeXXS }}
+        >
           <p>
             Shaping your digital journey with meticulous design, vibrant
             personality, and unmistakable flair, every step of the way.
@@ -92,29 +98,27 @@ const Footer = () => {
         </Link>
       </div>
       <div className={styles.cityText}>
-        <p>Winchester CA</p>
-        <div className={styles.circle} style={{ backgroundColor: theme.tan }} />
-        <p>Temecula CA</p>
+        <p>Temecula, CA</p>
       </div>
       <div className={styles.iconContainer}>
         <a href={"https://www.instagram.com/bord.media/"}>
           <FontAwesomeIcon
             className={styles.iconsTall}
-            style={{ color: theme.tan }}
+            style={{ color: theme.secondary }}
             icon={faFacebookF}
           />
         </a>
         <a href={"https://www.instagram.com/bord.media/"}>
           <FontAwesomeIcon
             className={styles.icons}
-            style={{ color: theme.tan }}
+            style={{ color: theme.secondary }}
             icon={faInstagram}
           />
         </a>
         <a href={"https://www.instagram.com/bord.media/"}>
           <FontAwesomeIcon
             className={styles.icons}
-            style={{ color: theme.tan }}
+            style={{ color: theme.secondary }}
             icon={faLinkedinIn}
           />
         </a>

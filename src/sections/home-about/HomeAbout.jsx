@@ -7,12 +7,12 @@ import theme from "@/app/theme";
 
 function HomeAbout() {
   return (
-    <div className={styles.container} style={{ backgroundColor: theme.tan }}>
+    <div className={styles.container} style={{ backgroundColor: theme.alt }}>
       <Image src={AboutImage} alt={"Owner"} className={styles.aboutImage} />
       <div className={styles.textContainer}>
         <h3
           className={styles.header}
-          style={{ fontSize: theme.fontSizeMS, color: theme.dark }}
+          style={{ fontSize: theme.fontSizeM, color: theme.dark }}
         >
           Melina Rushton
         </h3>

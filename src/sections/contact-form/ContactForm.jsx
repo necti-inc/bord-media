@@ -16,16 +16,16 @@ function ContactForm() {
   const [businessNameValue, setBusinessNameValue] = useState(["", true]);
   const [emailValue, setEmailValue] = useState(["", true]);
   const [phoneValue, setPhoneValue] = useState(["", true]);
-  const [estimatedBudget, setEstimatedBudget] = useState("$600 - $1,000");
+  const [estimatedBudget, setEstimatedBudget] = useState("$400 - $800");
   const [servicesValue, setServicesValue] = useState([[], true]);
   const [anythingElseValue, setAnythingElseValue] = useState(["", true]);
 
   const [isHovered, setIsHovered] = useState(false);
 
   const estimatedBudgetValues = [
-    ["$600 - $1,000", ""],
-    ["$1,000 - $2,000", ""],
-    ["$2,000 - $4,000", ""],
+    ["$400 - $800", ""],
+    ["$800 - $1,500", ""],
+    ["$1,500 - $3,000", ""],
   ];
   const optionsMobile = [
     ["Meta Management"],
@@ -33,9 +33,6 @@ function ContactForm() {
     ["Brand Strategy"],
     ["Creative Content"],
     ["Business Photoshoot"],
-    ["Yelp Management"],
-    ["Next Door Management"],
-    ["Creative Content"],
   ];
   const options1 = [
     ["Meta Management"],
@@ -43,12 +40,7 @@ function ContactForm() {
     ["Brand Strategy"],
     ["Creative Content"],
   ];
-  const options2 = [
-    ["Business Photoshoot"],
-    ["Yelp Management"],
-    ["Next Door Management"],
-    ["Creative Content"],
-  ];
+  const options2 = [["Business Photoshoot"]];
 
   const buttonstyles = {
     borderColor: isHovered ? theme.secondary : theme.alt,
@@ -136,7 +128,7 @@ function ContactForm() {
         </h2>
         <div>
           <p style={{ color: theme.light }} className={styles.warningText}>
-            “*” indicates required fields
+            * indicates required fields
           </p>
         </div>
         <form onSubmit={handleSubmit}>
@@ -237,7 +229,7 @@ function ContactForm() {
         </h2>
         <div>
           <p style={{ color: theme.light }} className={styles.warningText}>
-            “*” indicates required fields
+            * indicates required fields
           </p>
         </div>
         <form onSubmit={handleSubmit}>

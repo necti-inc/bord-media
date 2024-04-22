@@ -9,16 +9,18 @@
 
 .textContainer {
     display: flex;
-    gap: 100px;
-    padding-left: 15%;
-    padding-right: 15%;
+    gap: 120px;
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
 }
 
 .leftContainer {
+    width: 80%;
 }
 
 .rightContainer {
-
+    width: 80%;
 }
 
 .logoImage {

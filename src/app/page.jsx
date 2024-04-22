@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <HomeHeader />
-      <HomeRecentProjects />
+      {/*<HomeRecentProjects />*/}
       <HomeGrowth />
       <HomeAbout />
       <HomePackages />

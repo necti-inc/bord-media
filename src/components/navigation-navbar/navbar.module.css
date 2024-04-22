@@ -19,12 +19,12 @@
 }
 
 .headerLogo {
-  max-height: 160px;
+  max-height: 220px;
   width: auto;
 }
 
 .link {
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
   font-weight: 600;
