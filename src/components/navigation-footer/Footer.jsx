@@ -101,27 +101,30 @@ const Footer = () => {
         <p>Temecula, CA</p>
       </div>
       <div className={styles.iconContainer}>
-        <a href={"https://www.instagram.com/bord.media/"}>
+        <a
+          href={"https://www.facebook.com/bordmediaservices"}
+          target={"_blank"}
+        >
           <FontAwesomeIcon
             className={styles.iconsTall}
             style={{ color: theme.secondary }}
             icon={faFacebookF}
           />
         </a>
-        <a href={"https://www.instagram.com/bord.media/"}>
+        <a href={"https://www.instagram.com/bord.media/"} target={"_blank"}>
           <FontAwesomeIcon
             className={styles.icons}
             style={{ color: theme.secondary }}
             icon={faInstagram}
           />
         </a>
-        <a href={"https://www.instagram.com/bord.media/"}>
-          <FontAwesomeIcon
-            className={styles.icons}
-            style={{ color: theme.secondary }}
-            icon={faLinkedinIn}
-          />
-        </a>
+        {/*<a href={"https://www.instagram.com/bord.media/"}>*/}
+        {/*  <FontAwesomeIcon*/}
+        {/*    className={styles.icons}*/}
+        {/*    style={{ color: theme.secondary }}*/}
+        {/*    icon={faLinkedinIn}*/}
+        {/*  />*/}
+        {/*</a>*/}
       </div>
       <div className={styles.lowerContainer}>
         <p>

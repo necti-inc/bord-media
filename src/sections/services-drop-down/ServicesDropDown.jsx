@@ -32,7 +32,7 @@ function ServicesDropDown() {
                   fontWeight: "600",
                 }}
               >
-                • 4 Posts/Month (1 Post/Week) With Captions
+                • 8 Posts/Month (2 Post/Week) With Captions
               </p>
               <p
                 className={styles.bodyText}
@@ -91,7 +91,7 @@ function ServicesDropDown() {
                   fontWeight: "600",
                 }}
               >
-                • 8 Posts/Month (2 Posts/Week) With Captions
+                • 12 Posts/Month (3 Posts/Week) With Captions
               </p>
               <p
                 className={styles.bodyText}

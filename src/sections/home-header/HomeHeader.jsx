@@ -6,7 +6,6 @@ function HomeHeader() {
   return (
     <div
       style={{
-        backgroundImage: `url(/HP-header.png)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "680px",
