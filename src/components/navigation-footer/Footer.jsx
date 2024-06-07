@@ -46,9 +46,9 @@ const Footer = () => {
             <Link href={"/about"}>
               <p className={styles.texterButton}>About</p>
             </Link>
-            <Link href={"/portfolio"}>
-              <p className={styles.texterButton}>Portfolio</p>
-            </Link>
+            {/*<Link href={"/portfolio"}>*/}
+            {/*  <p className={styles.texterButton}>Portfolio</p>*/}
+            {/*</Link>*/}
             <Link href={"/services"}>
               <p className={styles.texterButton}>Services</p>
             </Link>
